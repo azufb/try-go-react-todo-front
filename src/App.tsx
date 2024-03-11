@@ -1,5 +1,6 @@
 import './App.css'
 import { TodoForm } from './components/todoForm'
+import { TodoList } from './components/todoList'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <h1>Go! React! Todo App!</h1>
       <TodoForm />
+      <TodoList />
     </>
   )
 }
